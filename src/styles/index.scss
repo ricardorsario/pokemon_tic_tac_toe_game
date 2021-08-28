@@ -1,13 +1,88 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background-color: #f8f4e0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    margin-top: 5rem;
+    color: #f8f4e0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.square {
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #4129a3;
+    border-radius: 0.3rem;
+}
 
-*/
+.square:hover {
+    background-color: #352593;
+}
+
+.title {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.text {
+    font-size: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.screen {
+    background-color: #4938af;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.3rem;
+}
+
+.screen_border {
+    border-radius: 0.3rem;
+    background-color: #94d2c3;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pokedex {
+    background-color: #f3615c;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    width: 24.5rem;
+}
+
+.shapes_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    background-color: #4129a3;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.rectangle {
+    background-color: #94d2c3;
+    border-radius: 0.3rem;
+    width: 5rem;
+    height: 3rem;
+    color: #4129a3;
+    font-size: 0.7rem;
+    border: 0;
+}
+
+.rectangle:hover {
+    background-color: #aae2d2;
+}
+
+.rectangle:active {
+    background-color: #85c9b7;
+}
